@@ -1,0 +1,20 @@
+h1 {
+    background-color: darkblue;
+    color: floralwhite;
+    font-family: sans-serif;
+    text-indent: 20px;
+}
+
+h2 {
+    background-color: azure;
+    font-family: sans-serif;
+    text-indent: 20px;
+}
+
+table {
+    column-span: all;
+}
+
+p {
+    text-indent: 20px;
+}
