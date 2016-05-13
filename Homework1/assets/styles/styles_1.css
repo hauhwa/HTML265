@@ -1,3 +1,9 @@
+html {
+    padding: 20px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
 h1 {
     text-align: center;
     border-bottom: solid green;
@@ -11,10 +17,12 @@ h2 {
     font-size: 20px;
     text-align: left;
     text-indent: 30px;
+    color: darkolivegreen;
 }
 
 h4 {
     margin-left: 30px;
+    line-height: 1px;
 }
 
 p {
@@ -28,6 +36,7 @@ thead {
     text-decoration: underline;
     font-size: 20px;
     text-align: left;
+    color: darkolivegreen;
 }
 
 table {
@@ -47,4 +56,31 @@ img {
 
 .subheading {
     width: 200px;
+}
+
+.btn {
+    background-color: lightgray;
+    padding: 5px;
+    border: 2px solid gray;
+}
+
+.btnspace {
+    text-align: center;
+    padding-top: 50px;
+}
+
+a:link {
+    background-color: lightgray;
+    padding: 5px;
+    border: 2px solid gray;
+    color: black;
+}
+
+a:visited {
+    color: cornflowerblue;
+}
+
+a:active {
+    background-color: gray;
+    color: black;
 }
